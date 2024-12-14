@@ -1,0 +1,6 @@
+Django
+djangorestframework
+numpy
+scikit_learn
+tensorflow
+opencv-python
