@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "c7245f50-66a4-44ab-8106-dbc00d27080b",
+		"_postman_id": "b45dee88-b037-4023-aa9a-168d9d6e2710",
 		"name": "OCRAPI",
 		"description": "This API takes an image as input and returns the output label.",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
@@ -18,7 +18,7 @@
 						{
 							"key": "file",
 							"type": "file",
-							"src": "/D:/Work/Blnk/Task/Data/name1.2400430.png"
+							"src": []
 						}
 					]
 				},
@@ -39,45 +39,7 @@
 					]
 				}
 			},
-			"response": [
-				{
-					"name": "http://127.0.0.1:8000/api/ocrapi/",
-					"originalRequest": {
-						"method": "POST",
-						"header": [],
-						"body": {
-							"mode": "formdata",
-							"formdata": [
-								{
-									"key": "file",
-									"type": "file",
-									"src": "/D:/Work/Blnk/Task/Data/name1.2400430.png"
-								}
-							]
-						},
-						"url": {
-							"raw": "http://127.0.0.1:8000/api/ocrapi/",
-							"protocol": "http",
-							"host": [
-								"127",
-								"0",
-								"0",
-								"1"
-							],
-							"port": "8000",
-							"path": [
-								"api",
-								"ocrapi",
-								""
-							]
-						}
-					},
-					"_postman_previewlanguage": "Text",
-					"header": [],
-					"cookie": [],
-					"body": ""
-				}
-			]
+			"response": []
 		}
 	]
 }
